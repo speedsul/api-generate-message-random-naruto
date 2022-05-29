@@ -18,10 +18,20 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href='https://nextjs.org'>Naruto API!</a>
         </h1>
-        <p>Mensagem aleatória Naruto /api</p>
+        <p>Mensagem aleatória Naruto</p>
+        <p>
+          <a
+            href='https://api-generate-message-random-naruto.vercel.app/api'
+            target='_blank'
+            rel='noopener noreferrer'
+            className={styles.gratuita}
+          >
+            https://api-generate-message-random-naruto.vercel.app/api
+          </a>
+        </p>
         <p>
           Implementado apenas o metodo GET para consumo referente a aula{' '}
-          <span className={styles.gratuita}>Gratuita</span> da DIO
+          <span className={styles.gratuita}>Gratuita</span> da DIO.
         </p>
         <p className={styles.site_dio}>
           <a
@@ -36,8 +46,20 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
+        <span>
+          Projeto GitHub{' '}
+          <p className={styles.github}>
+            <a
+              href='https://github.com/speedsul/api-generate-message-random-naruto'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              Acesse esse projeto no github
+            </a>
+          </p>
+        </span>
         <a
-          href='https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
+          href='https://github.com/speedsul/api-generate-message-random-naruto'
           target='_blank'
           rel='noopener noreferrer'
         >

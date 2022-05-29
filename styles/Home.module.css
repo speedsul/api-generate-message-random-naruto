@@ -1,7 +1,7 @@
 
 
 .main {
-  min-height: 90vh;
+  min-height: 80vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -29,8 +29,10 @@
   font-size: larger;
 }
 .footer {
-  height: 10vh;
+  height: 20vh;
+text-align: center;
   display: flex;
+  flex-direction: column;
   flex: 1;
   padding: 2rem 0;
   border-top: 1px solid #eaeaea;
@@ -51,7 +53,9 @@
   color: #f38200;
   text-decoration: none;
 }
-
+.github{
+  color: aqua;
+}
 .title a:hover,
 .title a:focus,
 .title a:active {
