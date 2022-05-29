@@ -32,3 +32,5 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 ## Deploy on Vercel
 
 Projeto está rodando em um anbiente gratuito fornecido pela vercel através do link https://api-generate-message-random-naruto.vercel.app/ e a api pode ser acessada pela url https://api-generate-message-random-naruto.vercel.app/api via GET
+
+![MarineGEO circle logo](https://uploaddeimagens.com.br/images/003/886/092/full/frontEndNaruto.png?1653867806 "Api Naruto message")
