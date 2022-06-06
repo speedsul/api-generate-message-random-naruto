@@ -31,7 +31,7 @@ const getRandom = () => {
   const dadosFiltrados = naruto.filter((item) => {
     return item.id === numeroAleatorio
   })
-  return dadosFiltrados
+  return dadosFiltrados[0]
 }
 
 export default allowCors(handler)
